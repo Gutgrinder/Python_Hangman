@@ -3,8 +3,8 @@
 # DONE #Wort eingeben
 # DONE #Pruefen ob die Eingabe den korrekten Wert hat (splitten und )
 # DONE #Wortlaenge in einer Variable abspeichern
-#Eingabe abfragen
-#Pruefen ob die Eingabe Nur ein Buchstabe ist(1. Laenge und 2. Buchstabe)
+# DONE #Eingabe abfragen
+# DONE #Pruefen ob die Eingabe Nur ein Buchstabe ist(1. Laenge und 2. Buchstabe)
 #Schleife schauen, ob der eingegebene Buchstabe im vorhandenen wort ist.
 #Wort ausgeben mit dem "eventuell Korrekt geratenen" Buchstaben eingesetzt
 import os
