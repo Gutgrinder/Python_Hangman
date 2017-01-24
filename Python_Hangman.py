@@ -8,12 +8,11 @@
 #Schleife schauen, ob der eingegebene Buchstabe im vorhandenen wort ist.
 #Wort ausgeben mit dem "eventuell Korrekt geratenen" Buchstaben eingesetzt
 import os
-
 os.system('cls' if os.name == 'nt' else 'clear')
 i = 1
 word = ''
 wordCheck = []
-wordBlank = ''
+wordBlank = []
 difficulty = 0
 tries = 0
 wordBackup = []
@@ -28,7 +27,7 @@ def wortEingabe():
 def schwierigkeit():
 	global difficulty
 	print("""
-	Please chosse a difficulty level:
+	Please choose a difficulty level:
 	1. Easy
 	2. Medium
 	3. Hard
@@ -74,7 +73,7 @@ def wordNew():
 #
 
 schwierigkeit()
-# Schleife zum checken ob difficulty wirklich eine Zahl ist.
+#Schleife zum checken ob difficulty wirklich eine Zahl ist.
 while difficulty != '1' and difficulty != '2' and difficulty != '3':
 	os.system('cls' if os.name == 'nt' else 'clear')
 	print('Ungueltige Eingabe!')
@@ -110,9 +109,8 @@ joinWord = ''
 wordBlank = joinWord.join(wordBlank)
 #
 
-#Schleife zum erraten des Wortes. Solange es noch _ enthält, schleife wiederholen.
+#Hauptschleife
 while wordBlank != word:
-
 	os.system('cls' if os.name == 'nt' else 'clear')
 	print(wordBlank)
 	if tries == difficulty:
