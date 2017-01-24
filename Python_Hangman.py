@@ -8,53 +8,6 @@
 #Schleife schauen, ob der eingegebene Buchstabe im vorhandenen wort ist.
 #Wort ausgeben mit dem "eventuell Korrekt geratenen" Buchstaben eingesetzt
 import os
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-####
 os.system('cls' if os.name == 'nt' else 'clear')
 i = 1
 word = ''
